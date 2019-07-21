@@ -2,12 +2,12 @@
 @import url('https://fonts.googleapis.com/css?family=Open+Sans|Satisfy&display=swap');
 
 .logo {
-    width:90px;
+    width:75px;
 }
 
-header h1 {
+h1 {
     color:#c9c983;
-    font-family:'satisfy', 'cursive';
+    font-family:'Satisfy', cursive;
     margin-top:20px;
 }
 
@@ -23,8 +23,7 @@ nav li {
 
 li a {
     color:#5c433f;
-    border:1px solid;
-    font-family:'Open sans','san serif';
+    font-family:'Open sans',sans-serif;
     font-weight:400;
 }
 
@@ -42,20 +41,20 @@ a:hover {
  .product {
      background-color:#eeddcd;
      border-radius:5%;
-     border:5px solid rgb(252, 252,252);
+     border:5px solid #ffffff;
  }
 
- .img-box {
+ .img-responsive {
      margin:10px 0px;
  }
 
  .product button {
     margin-bottom:10px;
-    background-color: rgb(252,252,252);
+    background-color: #ffffff;
     border:1px solid #5c433f;
 }
 
-aside a 
+aside a, 
 footer {background-color:#eeddcd;
 }
 
@@ -89,25 +88,31 @@ footer .fine_print {
     color:#333;
 }
 
+.soc_med {
+    list-style-type:none;
+    padding:0px;
+}
+
 @media(max-width: 768px) {
     .centered {
         float:none;
         margin:0 auto;
     }
-}
 
-nav {
-    padding-top:0px;
-    padding-bottom:10px;
-    top:5px;
-}
 
-.social {
-    margin:20px 10px 0px;
-}
+    nav {
+        padding-top:0px;
+        padding-bottom:10px;
+        top:5px;
+    }
 
-aside {
-    margin-bottom:60px;
+    .social {
+        margin:20px 10px 0px;
+    }
+
+    aside {
+        margin-bottom:60px;
+    }
 }
 
 .jumbotron {
